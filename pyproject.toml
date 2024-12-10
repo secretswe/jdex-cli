@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "jdex-cli"
+version = "0.1.0"
+description = "A command-line interface for managing your on-disk Johnny Decimal system."
+authors = ["secretswe@proton.me"]
+readme = "README.md"
+packages = [{include = "jdex_cli", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
