@@ -9,6 +9,7 @@ packages = [{include = "jdex_cli", from = "src"}]
 [tool.poetry.dependencies]
 python = "^3.13"
 click = "^8.1.7"
+tomlkit = "^0.13.2"
 
 
 [build-system]
